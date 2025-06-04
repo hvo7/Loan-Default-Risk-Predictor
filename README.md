@@ -1,7 +1,12 @@
 # Loan Default Risk Predictor Using FOIA Bank Data
 
-The project aims to predict the risk of a loan default using data from U.S. financial institutions to help flag high-risk loans before a default happens. 
+The project aims to predict the risk of a consumer loan default using data from U.S. financial institutions to help flag high-risk loans before a default happens. 
 
+*Example: For this auto loan in 2025 in Louisiana, what is the probabiltiy that it will default within the next x months?"*
+
+By assessing high-risk loans in advance, we can help lenders take proactive measures to mitigate losses and thus increase profitaability.
+
+*Note that because this model is related to loans, we must be careful and consider any potential disciriminatory bias based on protected attributes* 
 
 ## Tools & Stack 
 * Data Ingestion: **Pandas**, **PySpark**
@@ -9,18 +14,16 @@ The project aims to predict the risk of a loan default using data from U.S. fina
 * Dashboard: 
 * Versioning: Github, MLflow
 
-
-
-## Exploratory Data Analysis (EDA)
+## Data Collection and Cleaning
 ---
+Collect Data From
+* (FFEIC Call Reports)[]
+    - 
+
 Clean up the data
 * Remove duplicates
 * Check Null values
 * Handle imputation
-
-
-
-
 
 ## Data Preprocessing
 ---
