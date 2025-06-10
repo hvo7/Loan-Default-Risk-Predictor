@@ -9,7 +9,7 @@ By assessing high-risk loans in advance, we can help lenders take proactive meas
 *Note that because this model is related to loans, we must be careful and consider any potential disciriminatory bias based on protected attributes* 
 
 ## Tools & Stack 
-* Data Ingestion: **Pandas**, **PySpark**
+* Data Ingestion: **Pandas**
 * Modeling: 
 * Dashboard: 
 * Versioning: Github, MLflow
