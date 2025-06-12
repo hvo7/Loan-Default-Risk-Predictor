@@ -1,10 +1,10 @@
-# Loan Default Risk Predictor Using FOIA Bank Data
+# Loan Default Risk Predictor
 
 # Problem Statement
 A bank has experienced an excess amount of approved loans defaulting. This has led to financial losses due to several reasons:
-    1. Principal loss - Defaulted loans may only pay a portion of what was lent out.
-    2. Interest Income Loss - Bank misses on future interest payments. 
-    3. Higher credit risk - Defaulted loans implies poor credit risk assessment, which may dissuade investors and lead to regulatory implications.
+1. Principal loss - Defaulted loans may only pay a portion of what was lent out.
+2. Interest Income Loss - Bank misses on future interest payments. 
+3. Higher credit risk - Defaulted loans implies poor credit risk assessment, which may dissuade investors and lead to regulatory implications.
 
 The Loan Default Risk Predictor (LDRP) project aims to correctly assess the risk of a consumer loan default using data from the LendersClub, the world's largest peer-to-peer lending platform, centralized in San Francisco, California. 
 
