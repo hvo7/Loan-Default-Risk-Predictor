@@ -1,5 +1,14 @@
-# Loan Default Risk Analysis
+# Loan Default Risk Dashboard and Analysis
 
+# Problem Statement - Summary
+A Bank has experienced too many loans defaulting. How can we solve this issue and thus minimize financial loss?
+
+**Data-Driven Solution** - Create a interactive dashboard and solve hypotheses to help stakeholders determine what factors or applicant profile are likely to default.
+
+## Tools & Stack 
+* EDA: **Pandas**, **SQL**
+* Data Visualization: **Tableau**
+    - We hope to create an interactive dashboard to help specifically non-technical users gain insights into the data.
 
 # Introduction
 A bank has experienced an excess amount of approved loans defaulting. This has led to financial losses due to several reasons:
@@ -11,16 +20,11 @@ The Loan Default Risk Analysis (LDRA) project aims to correctly analyze what fac
 
 By assessing high-risk loans in advance, we can reduce the amount of loans defaulting and thus minimize financial loss. 
 
-I hope to achieve this by answering a few questions:
-* What does a high risk profile (very likely to default) look like vs. a low risk profile
-* What factors are most associated with default - this may help further feature selection for a risk assessment model
-
-
-
-## Tools & Stack 
-* EDA: **Pandas**, **SQL**
-* Data Visualization: **Tableau**
-    - We hope to create an interactive dashboard to help specifically non-technical users gain insights into the data.
+I hope to achieve this by:
+1. Creating an interactive dashboard in Tableau for non-technical users by allowing them to filter to what demographic tends have default loans.
+2. Explore several hypotheses and overall answer:
+    * What does a high risk profile (very likely to default) look like vs. a low risk profile
+    * What factors are most associated with default - this may help further feature selection for a risk assessment model
 
 ### Data Collection
 ---
@@ -30,12 +34,6 @@ Collect Data From: [TheLendersClub](https://www.kaggle.com/code/faressayah/lendi
 * Remove duplicates
 * Check Null values
 * Handle imputation
-
-### Exploratory Data Analysis (EDA)
-* Discover patterns and gain insights
-
-
-
 
 ### Dashboard + Hypothesis Exploration
 ---
